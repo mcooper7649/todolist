@@ -33,7 +33,11 @@ const item3 = new Item({
   name: "<-- Hit this to delete an item."
 });
 
-const defaultItems = [item1, item2, item3];
+const item3 = new Item({
+  name: "Change URL to create a new List. Example: https://guarded-bayou-20064.herokuapp.com/MYNEWLIST"
+});
+
+const defaultItems = [item1, item2, item3, item4];
 
 const listSchema = {
   name: String,
