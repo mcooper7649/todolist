@@ -33,7 +33,7 @@ const item3 = new Item({
   name: "<-- Hit this to delete an item."
 });
 
-const item3 = new Item({
+const item4 = new Item({
   name: "Change URL to create a new List. Example: https://guarded-bayou-20064.herokuapp.com/MYNEWLIST"
 });
 
